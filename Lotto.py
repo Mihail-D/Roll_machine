@@ -16,7 +16,6 @@ while ball < 6:
     arr.remove(roll)
     ball += 1
     t_end = time.time() + 30
-
     print("Шар", ball, " - ", roll)
 
 bets.sort()
